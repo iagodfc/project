@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <style>
+            img {
+    width: 100%;
+}
+            body {
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+            * {
+    box-sizing: border-box;
+}
+            .column-1 {
+    background-color: rgb(127, 0, 0);
+    width: 10%;
+    float: left;
+    position: relative;
+}
+            .column-1-2 {
+    background-color: rgb(127, 0, 0);
+    width: 40%;
+    float: left;
+    position: relative;
+}
+            .column-2 {
+    width: 10%;
+    float: left;
+    position: relative;
+}
+            .column {
+    width: 10%;
+    float: left;
+    padding: 16px;
+    position: relative;
+}
+            .empty-column {
+    width: 0%;
+    float: left;
+}
+            .bar-1 {
+    height: 48px;
+}
+            .bar-2 {
+    height: 224px;
+}
+            svg {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+            .space-1 {
+    height: 6px;
+}
+            .space-2 {
+    height: 16px;
+}
+            .search-bar {
+    background-color: rgb(255, 0, 0);
+    height: 36px;
+}
+            .center-text {
+    text-align: center;
+}
+            .recommended {
+    padding-top: 72px;
+    padding-left: 24px;
+}
+            .continue-watching {
+    padding-top: 24px;
+    padding-left: 24px;
+    width: 50%;
+    text-align: left;
+}
+        </style>
+    </head>
+    <body>
+        <div class="row">
+            <div class="column-1">
+                <div class="bar-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="white"><path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z"/></svg>
+                </div>
+            </div>
+            <div class="column-1-2">
+                <div class="bar-1"></div>
+            </div>
+            <div class="column-1-2">
+                <div class="bar-1">
+                    <div class="space-1"></div>
+                    <div class="search-bar"></div>
+                </div>
+            </div>
+            <div class="column-1">
+                <div class="bar-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="white"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+                </div>
+            </div>
+            <div class="empty-column"></div>
+            <div class="empty-column"></div>
+            <div class="empty-column"></div>
+            <div class="empty-column"></div>
+            <div class="empty-column"></div>
+            <div class="empty-column"></div>
+            <div class="empty-column"></div>
+            <div class="empty-column"></div>
+        </div>
+        <h1 class="recommended">Recommended</h1>
+        <div class="row">
+            <div class="column-2">
+                <div class="bar-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="white"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"/></svg>
+                </div>
+            </div>
+            <div class="column">
+                <img draggable="false" src="posters/wall-e.jpg" alt="Wall-E">
+                <div class="space-2"></div>
+                <div class="center-text">Wall-E</div>
+            </div>
+            <div class="column">
+                <img draggable="false" src="posters/up.jpg" alt="Up">
+                <div class="space-2"></div>
+                <div class="center-text">Up</div>
+            </div>
+            <div class="column">
+                <img draggable="false" src="posters/cars.jpg" alt="Cars">
+                <div class="space-2"></div>
+                <div class="center-text">Cars</div>
+            </div>
+            <div class="column">
+                <img draggable="false" src="posters/toy-story.jpg" alt="Toy Story">
+                <div class="space-2"></div>
+                <div class="center-text">Toy Story</div>
+            </div>
+            <div class="column">
+                <img draggable="false" src="posters/madagascar.jpg" alt="Madagascar">
+                <div class="space-2"></div>
+                <div class="center-text">Madagascar</div>
+            </div>
+            <div class="column">
+                <img draggable="false" src="posters/kung-fu-panda.jpg" alt="Kung Fu Panda">
+                <div class="space-2"></div>
+                <div class="center-text">Kung Fu Panda</div>
+            </div>
+            <div class="column">
+                <img draggable="false" src="posters/the-croods.jpg" alt="The Croods">
+                <div class="space-2"></div>
+                <div class="center-text">The Croods</div>
+            </div>
+            <div class="column">
+                <img draggable="false" src="posters/megamind.jpg" alt="Megamind">
+                <div class="space-2"></div>
+                <div class="center-text">Megamind</div>
+            </div>
+            <div class="column-2">
+                <div class="bar-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="white"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
+                </div>
+            </div>
+            <div class="empty-column"></div>
+            <div class="empty-column"></div>
+        </div>
+        <h1 class="continue-watching">Continue watching</h1>
+        <div class="row">
+            <div class="column-2">
+                <div class="bar-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="white"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"/></svg>
+                </div>
+            </div>
+            <div class="column">
+                <img draggable="false" src="posters/frozen.jpg" alt="Frozen">
+                <div class="space-2"></div>
+                <div class="center-text">Frozen</div>
+            </div>
+            <div class="column">
+                <img draggable="false" src="posters/inside-out.jpg" alt="Inside Out">
+                <div class="space-2"></div>
+                <div class="center-text">Inside Out</div>
+            </div>
+            <div class="column">
+                <img draggable="false" src="posters/brave.jpg" alt="Brave">
+                <div class="space-2"></div>
+                <div class="center-text">Brave</div>
+            </div>
+            <div class="column">
+                <img draggable="false" src="posters/bolt.jpg" alt="Bolt">
+                <div class="space-2"></div>
+                <div class="center-text">Bolt</div>
+            </div>
+            <div class="column">
+                <img draggable="false" src="posters/ice-age.jpg" alt="Ice Age">
+                <div class="space-2"></div>
+                <div class="center-text">Ice Age</div>
+            </div>
+            <div class="column">
+                <img draggable="false" src="posters/rio.jpg" alt="Rio">
+                <div class="space-2"></div>
+                <div class="center-text">Rio</div>
+            </div>
+            <div class="column">
+                <img draggable="false" src="posters/coraline.jpg" alt="Coraline">
+                <div class="space-2"></div>
+                <div class="center-text">Coraline</div>
+            </div>
+            <div class="column">
+                <img draggable="false" src="posters/9.jpg" alt="9">
+                <div class="space-2"></div>
+                <div class="center-text">9</div>
+            </div>
+            <div class="column-2">
+                <div class="bar-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="white"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
+                </div>
+            </div>
+            <div class="empty-column"></div>
+            <div class="empty-column"></div>
+        </div>
+    </body>
+</html>
